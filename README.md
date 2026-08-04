@@ -1,2 +1,3 @@
 # spk-forgerock-common
-spk-forgerock-common eies og forvaltes av team-applikasjonsplattform
+
+This module contains shared code for various modules to manage PingIdentity (Forgerock) products.

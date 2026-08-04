@@ -1,9 +1,9 @@
 {
   "name": "spk-forgerock_common",
   "version": "1.0.0",
-  "author": "Hugo Haakseth",
-  "summary": "Common functions and classes for ForgeRock modules",
-  "license": "Apache-2.0",
+  "author": "Statens pensjonskasse",
+  "summary": "shared code for various modules to manage PingIdentity (Forgerock) products",
+  "license": "MIT",
   "source": "https://github.com/statens-pensjonskasse/spk-forgerock-common",
   "dependencies": [],
   "operatingsystem_support": [
