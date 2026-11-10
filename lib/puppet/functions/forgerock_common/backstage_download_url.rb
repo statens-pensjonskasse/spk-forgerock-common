@@ -4,17 +4,17 @@
 #   This function generates a download URL for a given ForgeRock product based on the provided parameters.
 #
 Puppet::Functions.create_function(:'forgerock_common::backstage_download_url') do
-  # @param product_family_id [String] The product family ID (e.g., 'am').
-  # @param product_id [String] The product ID (e.g., 'openam-web-policy-agents').
-  # @param version [String] The version of the product (e.g., '2025.11', '7.5.0').
-  # @param distribution [String] The distribution type (e.g., 'zip', 'war').
-  # @param release_type [String, nil] The release type (e.g., 'full', 'patch'). Required for some products.
-  # @param platform [String, nil] The platform (e.g., 'apache'). Required for some products.
-  # @param platform_version [String, nil] The platform version (e.g., '2.4'). Required for some products.
-  # @param os [String, nil] The operating system (e.g., 'linux'). Required for some products.
-  # @param architecture [String, nil] The architecture (e.g., '64bit'). Required for some products.
-  # @param include_system_ca_store [Boolean, nil] Whether to include the system CA store when making HTTP requests. Defaults to false.
-  # @return [String] The generated download URL.
+  # @param product_family_id The product family ID (e.g., 'am').
+  # @param product_id The product ID (e.g., 'openam-web-policy-agents').
+  # @param version The version of the product (e.g., '2025.11', '7.5.0').
+  # @param distribution The distribution type (e.g., 'zip', 'war').
+  # @param release_type The release type (e.g., 'full', 'patch'). Required for some products.
+  # @param platform The platform (e.g., 'apache'). Required for some products.
+  # @param platform_version The platform version (e.g., '2.4'). Required for some products.
+  # @param os The operating system (e.g., 'linux'). Required for some products.
+  # @param architecture The architecture (e.g., '64bit'). Required for some products.
+  # @param include_system_ca_store Whether to include the system CA store when making HTTP requests. Defaults to false.
+  # @return The generated download URL.
   dispatch :backstage_download_url do
     param 'String', :product_family_id
     param 'String', :product_id
