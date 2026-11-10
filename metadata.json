@@ -1,6 +1,6 @@
 {
   "name": "spk-forgerock_common",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Statens pensjonskasse",
   "summary": "shared code for various modules to manage PingIdentity (Forgerock) products",
   "license": "MIT",
