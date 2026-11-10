@@ -81,4 +81,3 @@ The architecture (e.g., '64bit'). Required for some products.
 Data type: `Optional[Boolean]`
 
 Whether to include the system CA store when making HTTP requests. Defaults to false.
-
