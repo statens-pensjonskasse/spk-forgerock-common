@@ -1,6 +1,6 @@
 {
   "name": "spk-forgerock_common",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Statens pensjonskasse",
   "summary": "shared code for various modules to manage PingIdentity (Forgerock) products",
   "license": "MIT",
@@ -11,21 +11,23 @@
       "operatingsystem": "Rocky",
       "operatingsystemrelease": [
         "8",
-        "9"
+        "9",
+        "10"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "8",
-        "9"
+        "9",
+        "10"
       ]
     }
   ],
   "requirements": [
     {
       "name": "openvox",
-      "version_requirement": ">= 8.19.0 < 9.0.0"
+      "version_requirement": ">= 8.19.0 < 10.0.0"
     }
   ]
 }
